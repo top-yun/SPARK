@@ -4,7 +4,11 @@
 
 A benchmark dataset and simple code examples for **measuring the perception and reasoning of multi-sensor Large-scale Vision Language Models**.
 
-# Introduction
+# 📰 News
+
+- **[2024.08.21]** We are currently awaiting the release of the arXiv paper
+
+# 💡 Introduction
 
 <p align="center">
   <img src="resources/problems.png" :height="300px" width="600px">
@@ -25,7 +29,7 @@ The benchmark dataset consists of **four types of sensors(RGB, Thermal, Depth, X
 
 It consists of approximately 6,000 questions and answers, with the questions broadly categorized into **Multi-vision Perception** and **Multi-vision Reasoning**.
 
-# SPARK Leaderboard
+# 🏆 SPARK Leaderboard
 
 <p align="center">
   <img src="resources/leaderboards.png" :height="600px" width="1000px">
