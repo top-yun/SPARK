@@ -23,7 +23,7 @@ The benchmark dataset consists of **four types of sensors(RGB, Thermal, Depth, X
   <img src="resources/dataset.png" :height="600px" width="600px">
 </p>
 
-It consists of approximately 6,000 questions and answers, with the questions broadly categorized into Perception and Reasoning.
+It consists of approximately 6,000 questions and answers, with the questions broadly categorized into **Multi-vision Perception** and **Multi-vision Reasoning**.
 
 # SPARK Leaderboard
 
