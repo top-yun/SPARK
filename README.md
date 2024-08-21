@@ -1,10 +1,10 @@
-# SPARK: multi-vision Sensor Perception And Reasoning benchmarK 
+# ⚡ SPARK: multi-vision Sensor Perception And Reasoning benchmarK ⚡
 
 [**🤗 Dataset**](https://huggingface.co/datasets/topyun/SPARK)
 
 A benchmark dataset and simple code examples for **measuring the perception and reasoning of multi-sensor Large-scale Vision Language Models**.
 
-# Problems
+# Introduction
 
 <p align="center">
   <img src="resources/problems.png" :height="300px" width="600px">
@@ -12,7 +12,7 @@ A benchmark dataset and simple code examples for **measuring the perception and 
 
 Many Large-scale Vision-Language Models(LVLMs) have basic knowledge of various sensors such as thermal, depth, and X-ray, **but they do not attempt to view images while understanding the physical characteristics of each sensor.** Therefore, we have created a benchmark that can measure the differences between images and multi-vision sensor information.
 
-# Benchmark Information
+# ⚡ SPARK ⚡
 <p align="center">
   <img src="resources/examples.png" :height="400px" width="800px">
 </p>
