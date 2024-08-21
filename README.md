@@ -60,6 +60,6 @@ test_closed_models.py \
 ```
 
 ## Tips
-
-If the model you're evaluating provides unexpected answers (e.g., "Based on ..." or "Considering ..."), you can resolve this by adding "Do not include any additional text." at the end of the prompt.
+The evaluation method we've implemented simply checks whether 'A', 'B', 'C', 'D', 'yes', or 'no' appears at the beginning of the sentence.
+So, if the model you're evaluating provides unexpected answers (e.g., "'B'ased on ..." or "'C'onsidering ..."), you can resolve this by adding "Do not include any additional text." at the end of the prompt.
 
