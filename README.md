@@ -1,4 +1,4 @@
-# ⚡ SPARK: multi-vision Sensor Perception And Reasoning benchmarK ⚡
+# ⚡ SPARK: multi-vision Sensor Perception And Reasoning benchmarK
 
 [**🤗 Dataset**](https://huggingface.co/datasets/topyun/SPARK)
 
