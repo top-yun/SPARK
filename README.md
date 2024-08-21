@@ -20,7 +20,7 @@ Many Large-scale Vision-Language Models(LVLMs) have basic knowledge of various s
 The benchmark dataset consists of **four types of sensors(RGB, Thermal, Depth, X-ray) and six types of questions(Existence, Count, Position, Scene Description, Contextual Reasoning, Sensor Reasoning).** Examples of each are shown in the image above.
 
 <p align="center">
-  <img src="resources/dataset.png" :height="600px" width="600px">
+  <img src="resources/dataset.png" :height="300px" width="300px">
 </p>
 
 It consists of approximately 6,000 questions and answers, with the questions broadly categorized into **Multi-vision Perception** and **Multi-vision Reasoning**.
