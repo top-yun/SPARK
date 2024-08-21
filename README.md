@@ -37,7 +37,7 @@ from datasets import load_dataset
 test_dataset = load_dataset("topyun/SPARK", split="train")
 ```
 
-Additionally, we have provided two example codes for evaluation: Open Model and Closed Model. You can easily run them as shown below.
+Additionally, we have provided two example codes for evaluation: Open Model([**test.py**](https://github.com/top-yun/SPARK/blob/main/test.py)) and Closed Model([**test_closed_models.py**](https://github.com/top-yun/SPARK/blob/main/test_closed_models.py)). You can easily run them as shown below.
 
 If you have 4 GPUs and want to run the experiment with llava-1.5-7b, you can do the following:
 ```bash
@@ -48,7 +48,7 @@ test.py \
 --model llava \
 ```
 
-When running the closed model, make sure to insert your API KEY into the config.py file.
+When running the closed model, make sure to insert your API KEY into the [**config.py**](https://github.com/top-yun/SPARK/blob/main/config.py) file.
 If you have 1 GPU and want to run the experiment with gpt-4o, you can do the following:
 ```bash
 accelerate launch --config_file utils/ddp_accel_fp16.yaml \
