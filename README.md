@@ -1,12 +1,12 @@
 # ⚡ SPARK: multi-vision Sensor Perception And Reasoning benchmarK
 
-[**🤗 Dataset**](https://huggingface.co/datasets/topyun/SPARK)
+[**🤗 Dataset**](https://huggingface.co/datasets/topyun/SPARK) | [**arXiv**](https://arxiv.org/abs/2408.12114)
 
 A benchmark dataset and simple code examples for **measuring the perception and reasoning of multi-sensor Large-scale Vision Language Models**.
 
 # 📰 News
 
-- **[2024.08.21]** We are currently awaiting the release of the arXiv paper
+- **[2024.08.23]** Now, Our paper is released on [arXiv](https://arxiv.org/abs/2408.12114)
 
 # 💡 Introduction
 
@@ -63,3 +63,15 @@ test_closed_models.py \
 The evaluation method we've implemented simply checks whether 'A', 'B', 'C', 'D', 'yes', or 'no' appears at the beginning of the sentence.
 So, if the model you're evaluating provides unexpected answers (e.g., "'B'ased on ..." or "'C'onsidering ..."), you can resolve this by adding "Do not include any additional text." at the end of the prompt.
 
+# Citation 
+```bibtex
+@misc{yu2024sparkmultivisionsensorperception,
+      title={SPARK: Multi-Vision Sensor Perception and Reasoning Benchmark for Large-scale Vision-Language Models}, 
+      author={Youngjoon Yu and Sangyun Chung and Byung-Kwan Lee and Yong Man Ro},
+      year={2024},
+      eprint={2408.12114},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2408.12114}, 
+}
+```
