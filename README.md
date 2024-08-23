@@ -1,6 +1,6 @@
 # ⚡ SPARK: multi-vision Sensor Perception And Reasoning benchmarK
 
-[**🤗 Dataset**](https://huggingface.co/datasets/topyun/SPARK) | [**arXiv**](https://arxiv.org/abs/2408.12114)
+[**🤗 Dataset**](https://huggingface.co/datasets/topyun/SPARK) | [**📃 Paper**](https://arxiv.org/abs/2408.12114)
 
 A benchmark dataset and simple code examples for **measuring the perception and reasoning of multi-sensor Large-scale Vision Language Models**.
 
