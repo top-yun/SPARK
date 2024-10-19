@@ -141,10 +141,9 @@ def process_sample(model, input,count = 2):
 def test(args):
     accel = Accelerator()
     
-
     # Initialize dataset & evaluator
     test_dataset = load_dataset("topyun/SPARK", split="train")
-    evaluator = Evaluator()
+    evaluator = Evaluator(root=args.dataset_dir)
     results = {}
     
     evaluator.reset()
@@ -190,6 +189,7 @@ def test(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
+    parser.add_argument('--dataset_dir', type=str)
     parser.add_argument('--model', default='gpt', type=str, help='gpt|claude|gemini')
     parser.add_argument('--batch_size', default=32, type=int)
     parser.add_argument('--multiprocess', default=False, type=bool)

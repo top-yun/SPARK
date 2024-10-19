@@ -47,8 +47,8 @@ def test(args):
     model.eval()
 
     # Initialize dataset & evaluator
-    test_dataset = load_dataset("topyun/SPARK", split="train")
-    evaluator = Evaluator()
+    test_dataset = load_dataset("topyun/SPARK", split="train", cache_dir=args.dataset_dir)
+    evaluator = Evaluator(root=args.dataset_dir)
 
 
     # Update dataset & evaluator
@@ -134,6 +134,7 @@ def test(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
+    parser.add_argument('--dataset_dir', type=str)
     parser.add_argument('--model', default='llava', type=str, help='llava|internVL2|IXC2b5')
     parser.add_argument('--batch_size', default=1, type=int)
     args = parser.parse_args()
