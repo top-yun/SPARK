@@ -142,7 +142,7 @@ def test(args):
     accel = Accelerator()
     
     # Initialize dataset & evaluator
-    test_dataset = load_dataset("topyun/SPARK", split="train")
+    test_dataset = load_dataset("topyun/SPARK", split="train", cache_dir=args.dataset_dir)
     evaluator = Evaluator(root=args.dataset_dir)
     results = {}
     
