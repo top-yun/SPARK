@@ -7,13 +7,12 @@ from collections import defaultdict
 from eval.utils import *
 
 class BaseEvaluator:
-    def __init__(self):
+    def __init__(self, root):
         super(BaseEvaluator, self).__init__()
 
         # Create evaluation results folder
-        self.save_dir = os.path.join(DATASET_ROOT, "eval_results")
-        if not os.path.exists(self.save_dir):
-            os.makedirs(self.save_dir)
+        self.save_dir = os.path.join(root, "eval_results")
+        os.makedirs(self.save_dir, exist_ok=True)
 
     def reset(self):
         # Reset results for new dataset evaluation
@@ -26,7 +25,7 @@ class BaseEvaluator:
         self.gen_answers.extend(outputs)
 
 class Evaluator(BaseEvaluator):
-    def __init__(self):
+    def __init__(self, root):
         """
         Eval Datasets
 
@@ -36,8 +35,7 @@ class Evaluator(BaseEvaluator):
         - CT
         
         """
-              
-        super().__init__()
+        super().__init__(root)
     
     def evaluate(self, model, accel):
 
