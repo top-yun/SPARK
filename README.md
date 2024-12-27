@@ -2,11 +2,11 @@
 
 [**🤗 Dataset**](https://huggingface.co/datasets/topyun/SPARK) | [**📃 Paper**](https://arxiv.org/abs/2408.12114)
 
-We present the **Multi-vision Sensor Perception and Reasoning (MS-PR) benchmark**, designed to evaluate Vision-Language Models (VLMs) on sensor-specific reasoning tasks. Alongside this, we propose the **Diverse Negative Attributes (DNA) optimization**, enabling VLMs to perform deep reasoning across multi-vision sensor tasks by addressing the core information gap between images and sensor data. Experimental results demonstrate that DNA optimization significantly enhances the reasoning capabilities of VLMs in multi-vision sensor scenarios.
+A benchmark dataset and simple code examples for **measuring the perception and reasoning of multi-sensor Large-scale Vision Language Models**.
 
 # 📰 News
 
-- **[2024.12.27]** Our paper
+- **[2024.08.23]** Now, Our paper is released on [arXiv](https://arxiv.org/abs/2408.12114)
 
 # 💡 Introduction
 
